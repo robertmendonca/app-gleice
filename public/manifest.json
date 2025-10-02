@@ -1,0 +1,17 @@
+{
+  "name": "Gleice Monteiro Consultoria",
+  "short_name": "Gleice",
+  "description": "Plataforma de consultoria de imagem de alto padrão.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f1f1f",
+  "icons": [
+    {
+      "src": "/icons/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

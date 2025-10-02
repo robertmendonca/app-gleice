@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 7%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: #f8f8f8;
+  color: hsl(var(--foreground));
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
+  color: #111;
+}
+
+a {
+  color: inherit;
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #1f1f1f 0%, #3d3d3d 50%, #d4af37 100%);
+  color: white;
+}
+
+.container-max {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
