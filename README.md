@@ -9,6 +9,8 @@ npm install
 npm run dev
 ```
 
+> **Nota sobre lint**: os pacotes do ecossistema `@typescript-eslint` necessários para o parser TypeScript do ESLint estão vendorizados em `vendor/@typescript-eslint`. Eles são consumidos através de dependências `file:` declaradas no `package.json`, garantindo instalações reproduzíveis mesmo em ambientes que bloqueiam o registro npm para escopos privados. Basta executar `npm install` normalmente.
+
 As principais variáveis de ambiente:
 
 ```

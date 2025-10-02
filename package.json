@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-
     "lint": "eslint . --max-warnings=0",
-
     "prepare": "next telemetry disable"
   },
   "dependencies": {
@@ -32,15 +30,13 @@
     "nanoid": "5.0.7"
   },
   "devDependencies": {
-
     "@types/node": "20.14.11",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.20",
     "@eslint/js": "9.9.0",
     "@next/eslint-plugin-next": "14.2.3",
-    "@typescript-eslint/eslint-plugin": "7.18.0",
-    "@typescript-eslint/parser": "7.18.0",
+    "@typescript-eslint/parser": "file:vendor/@typescript-eslint/parser",
     "eslint": "9.9.0",
     "eslint-import-resolver-node": "0.3.9",
     "eslint-import-resolver-typescript": "3.6.1",
@@ -49,9 +45,12 @@
     "eslint-plugin-react": "7.37.2",
     "eslint-plugin-react-hooks": "4.6.2",
     "globals": "15.9.0",
-
     "postcss": "8.4.39",
     "tailwindcss": "3.4.7",
-    "typescript": "5.5.3"
+    "typescript": "5.5.3",
+    "@typescript-eslint/scope-manager": "file:vendor/@typescript-eslint/scope-manager",
+    "@typescript-eslint/types": "file:vendor/@typescript-eslint/types",
+    "@typescript-eslint/typescript-estree": "file:vendor/@typescript-eslint/typescript-estree",
+    "@typescript-eslint/visitor-keys": "file:vendor/@typescript-eslint/visitor-keys"
   }
 }
