@@ -25,7 +25,6 @@
       "@/config/*": ["config/*"]
     }
   },
-
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.d.ts", "**/*.cjs", "**/*.mjs"],
   "exclude": ["node_modules"]
 }
